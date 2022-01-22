@@ -153,8 +153,6 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
-  
-  
 }
 
 .tacolocator {
@@ -218,8 +216,8 @@ h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.language{
-    text-align: bottom;
+.language {
+  text-align: bottom;
 }
 .sample:hover,
 .tacolocator:hover {

@@ -68,24 +68,19 @@ function Contact() {
             onBlur={handleChange}
             rows="5"
           />
+        </div>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
           </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
-            </div>  
-          )}
-        
-        <button  data-testid="button" type="submit">Submit</button>
+        )}
+
+        <button data-testid="button" type="submit">
+          Submit
+        </button>
       </form>
     </section>
   );
 }
 
 export default Contact;
-
-
-
-
-
-  
-
