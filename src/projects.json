@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Employee Tracker",
+    "img": "./logo192.png"
+  },
+  {
+    "title": "Project 1",
+    "img": "./logo192.png"
+  },
+  {
+    "title": "Note Taker",
+    "img": "./logo192.png"
+  },
+  {
+    "title": "Code Quiz",
+    "img": "./logo192.png"
+  },
+  {
+    "title": "Weather Dashboard",
+    "img": "./logo192.png"
+  },
+  {
+    "title": "Tech Blog",
+    "img": "./logo192.png"
+  }
+]
