@@ -2,7 +2,7 @@ function Footer() {
   return (
     <section>
       <div className="footer">
-        <ul class="contact">
+        <ul className="contact">
           <li>
             <a href="https://github.com/vic-smith">
               <img src="./images/git.png" alt="GitHub Logo" />
