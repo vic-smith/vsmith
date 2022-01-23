@@ -14,7 +14,6 @@ function Contact() {
   function handleChange(e) {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
-      console.log(isValid);
 
       // isValid conditional statement
       if (!isValid) {
@@ -35,49 +34,54 @@ function Contact() {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState);
   }
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+    <section className="container">
+      <div>
+      <h1 className="section-title" >Contact me</h1>
+      </div>
+      <form className="contact-me" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            defaultValue={name}
-            onBlur={handleChange}
-            name="name"
-          />
+          <label className="field" htmlFor="name">Name:</label>
         </div>
+        <input
+          type="text"
+          defaultValue={name}
+          onBlur={handleChange}
+          name="name"
+        />
+
         <div>
-          <label htmlFor="email">Email address:</label>
-          <input
-            type="email"
-            defaultValue={email}
-            onBlur={handleChange}
-            name="email"
-          />
+          <label className="field" htmlFor="email">Email address:</label>
         </div>
+        <input
+          type="email"
+          defaultValue={email}
+          onBlur={handleChange}
+          name="email"
+        />
+
         <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            name="message"
-            defaultValue={message}
-            onBlur={handleChange}
-            rows="5"
-          />
+          <label className="field" htmlFor="message">Message:</label>
         </div>
+        <textarea
+          name="message"
+          defaultValue={message}
+          onBlur={handleChange}
+          rows="5"
+        />
+
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="error">{errorMessage}</p>
           </div>
         )}
-
-        <button data-testid="button" type="submit">
-          Submit
-        </button>
+        <div>
+          <button className="btn" type="submit">
+            Submit
+          </button>
+        </div>
       </form>
     </section>
   );

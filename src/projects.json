@@ -1,19 +1,19 @@
 [
   {
     "title": "Employee Tracker",
-    "img": "./logo192.png"
+    "img": "./images/digital-marketing-meeting.jpg"
   },
   {
-    "title": "Project 1",
-    "img": "./logo192.png"
+    "title": "TacoLocator",
+    "img": "./images/taco.jpg"
   },
   {
-    "title": "Note Taker",
-    "img": "./logo192.png"
+    "title": "Give-Away",
+    "img": "./images/free.jpg"
   },
   {
-    "title": "Code Quiz",
-    "img": "./logo192.png"
+    "title": "Note-Taker",
+    "img": "./images/notes.jpg"
   },
   {
     "title": "Weather Dashboard",
@@ -21,6 +21,6 @@
   },
   {
     "title": "Tech Blog",
-    "img": "./logo192.png"
+    "img": "./images/tech.jpg"
   }
 ]

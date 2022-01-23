@@ -8,10 +8,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+  color: azure;
 }
 body,
 html {
   height: 100%;
+  background-color: rgb(29, 28, 28);
 }
 
 /*header syling*/
@@ -24,17 +27,16 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../public/images/wood.jpg");
+  background-image: url("../public/images/code.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
-}
-a {
-  color: var(--secondary-color);
+  
 }
 
 header h1 a {
+  color: #F0ffff;
   text-decoration: none;
   font-weight: bold;
   font-size: 40px;
@@ -49,28 +51,30 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  color: var(--secondary-color);
+  
 }
 header li {
   margin: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
+  
 }
 
 header nav ul {
   padding: 10px 20px;
+  
 }
 
 header h1 a:hover {
-  background: var(--secondary-color);
+ 
   color: var(--primary-color);
   border-radius: 5px;
   text-shadow: none;
 }
 
 header ul li a:hover {
-  background: var(--secondary-color);
+  
   color: var(--primary-color);
   border-radius: 5px;
   text-shadow: none;
@@ -85,12 +89,24 @@ h2 {
 
 /*header syling end*/
 
+.btn {
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    padding: 5px;
+    color: rgb(29, 28, 28);
+}
+
 .container {
   display: flex;
   flex-direction: column;
-  background-color: var(--primary-color);
   padding: 20px;
   border-right: 6px black;
+  justify-content: space-evenly;
+}
+
+.field {
+ padding-top: 10px;
 }
 
 .section-title {
@@ -100,7 +116,8 @@ h2 {
   margin: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  text-align: left;
+  text-align: center;
+  color: azure;
 }
 
 .victor {
@@ -109,7 +126,6 @@ h2 {
   flex: 3;
   padding: 10px;
   margin: 10px;
-  justify-content: center;
 }
 
 /* about me section styling*/
@@ -119,7 +135,6 @@ h2 {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding: 10px;
 }
 .profile {
@@ -127,6 +142,7 @@ h2 {
   display: flex;
   height: 300px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .profile-pic {
   height: 300px;
@@ -146,6 +162,13 @@ p {
 /* about me section styling end*/
 
 /* work examples styling*/
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around;
+}
 
 .work {
   flex-direction: row;
@@ -244,12 +267,15 @@ h3 {
 
 /* contact me section styling*/
 
+
 .contact-me {
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  padding: 10px;
+  text-align: left;
+  margin: auto;
+  width: 600px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .contact {
@@ -271,8 +297,8 @@ h3 {
 /*Hero Style Start*/
 
 .hero {
-  background-image: url("../public/images/wood.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+  background-image: url("../public/images/code.jpg");
+  opacity:0.5;
   height: 20%;
   display: flex;
   justify-content: center;
@@ -283,8 +309,13 @@ h3 {
   background-size: cover;
 }
 
-/* Hero Style End */
 
+/* Hero Style End */
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
@@ -305,15 +336,6 @@ h3 {
     font-size: 20 px;
   }
 
-  footer h2,
-  footer div {
-    text-align: center;
-    width: 100%;
-  }
-
-  .section-title {
-    width: 80%;
-  }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
