@@ -1,10 +1,10 @@
 {
-  "name": "vic-smith",
+  "name": "vsmith",
   "version": "0.1.0",
   "engines": {
     "node": "16.13.0"
   },
-  "private": false,
+  "private": true,
   "homepage": "http://vic-smith.github.io/vsmith",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
