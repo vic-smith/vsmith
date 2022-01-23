@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vsmith/static/css/main.f9ddbb49.css",
+    "main.js": "/vsmith/static/js/main.e0fc9008.js",
+    "static/js/787.27b8bc0d.chunk.js": "/vsmith/static/js/787.27b8bc0d.chunk.js",
+    "static/media/code.jpg": "/vsmith/static/media/code.6a46577f5cf2614df953.jpg",
+    "index.html": "/vsmith/index.html",
+    "main.f9ddbb49.css.map": "/vsmith/static/css/main.f9ddbb49.css.map",
+    "main.e0fc9008.js.map": "/vsmith/static/js/main.e0fc9008.js.map",
+    "787.27b8bc0d.chunk.js.map": "/vsmith/static/js/787.27b8bc0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9ddbb49.css",
+    "static/js/main.e0fc9008.js"
+  ]
+}
