@@ -17,10 +17,8 @@ function About() {
             <p>Hello!</p>
 
             <p>
-              It's great to meet you. I am a developing developer making the
-              switch from manufacturing and metal fabrication to the exciting
-              and challenging technology field. Please explore this page to view
-              some of my recent projects. Feel free to reach out if you would
+              It's great to meet you. I am a software developer in Appleton Wisconsin. Please, take a look around to view
+              some of my recent projects, proficiencies, and resume. Feel free to reach out if you would
               like to connect. Have a great day!
             </p>
           </ul>

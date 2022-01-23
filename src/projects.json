@@ -1,7 +1,8 @@
 [
   {
     "title": "Employee Tracker",
-    "img": "./images/digital-marketing-meeting.jpg"
+    "img": "./images/digital-marketing-meeting.jpg",
+    "app": "https://vic-smith.github.io/daily-planner/"
   },
   {
     "title": "TacoLocator",
@@ -16,8 +17,8 @@
     "img": "./images/notes.jpg"
   },
   {
-    "title": "Weather Dashboard",
-    "img": "./logo192.png"
+    "title": "Budget-Tracker",
+    "img": "./images/budget.jpg"
   },
   {
     "title": "Tech Blog",
