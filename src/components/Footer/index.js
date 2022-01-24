@@ -8,13 +8,12 @@ function Footer() {
               <img src="./images/git.png" alt="GitHub Logo" />
             </a>
           </li>
-
+          
           <li>
             <a href="https://stackoverflow.com/users/16684179/vsmith">
-              <img src="./images/stackoverflow.png" alt="Stackoverflow Logo" />
+              <img src="/images/stackoverflow.png" alt="Stackoverflow Logo" />
             </a>
-          </li>
-          <li>
+          </li><li>
             <a href="https://www.linkedin.com/in/victor-smith-devel0per">
               <img src="./images/LinkedIn.png" alt="LinkedIn Logo" />
             </a>

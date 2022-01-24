@@ -4,7 +4,7 @@
   "engines": {
     "node": "16.13.0"
   },
-  "private": true,
+  "private": false,
   "homepage": "http://vic-smith.github.io/vsmith",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -43,7 +43,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "mini-css-extract-plugin": "2.4.5"
+    "gh-pages": "^3.2.3"
   }
 }

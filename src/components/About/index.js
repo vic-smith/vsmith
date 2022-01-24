@@ -7,7 +7,7 @@ function About() {
       <div className="victor">
         <div className="profile">
           <img
-            src="./images/profile-pic.JPG"
+            src="./images/profile-pic.jpg"
             className="profile-pic"
             alt="Victor"
           />

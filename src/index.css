@@ -37,7 +37,7 @@ header {
 }
 
 header h1 a {
-  color:azure;
+  color:azure; 
   text-decoration: none;
   font-weight: bold;
   font-size: 40px;
