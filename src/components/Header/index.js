@@ -5,7 +5,7 @@ function Header(props) {
     <header>
       <div className="header">
         <h1>
-          <a href="https://vic-smith.github.io/-DeveloperForHire/">
+          <a href="https://vsmith.herokuapp.com/">
             Victor Smith
           </a>
         </h1>
