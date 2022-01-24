@@ -5,6 +5,7 @@ function Resume() {
       <div className="skills">
         <ul>
           <h3 className="list">Software Proficiencies</h3>
+          <div className="indent">
           <li>HTML & CSS</li>
           <li>React</li>
           <li>SQl</li>
@@ -14,6 +15,7 @@ function Resume() {
           <li>RESTful API</li>
           <li>Express</li>
           <li>Git</li>
+          </div>
         </ul>
       </div>
     <a className="skills" href="https://docs.google.com/document/d/1Nl3HxVLpAR-qhFB9gZOi0GxivIO9mam6lro1ew9TlH0/export?format=pdf">

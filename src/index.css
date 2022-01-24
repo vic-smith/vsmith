@@ -190,11 +190,14 @@ a:link{
   display: flex;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   "Lucida Sans", Arial, sans-serif;
-  justify-content: space-around;
+  margin: auto;
 }
-
+.indent {
+  padding-left: 20px;
+}
 .list {
   padding-bottom: 15px;
+  
 }
 
 ul {
