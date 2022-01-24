@@ -1,3 +1,7 @@
+import linked from "../../images/LinkedIn.png"
+import stack from "../../images/stackoverflow.png"
+import git from "../../images/git.png"
+
 function Footer() {
   return (
     <section>
@@ -5,17 +9,17 @@ function Footer() {
         <ul className="contact">
           <li>
             <a href="https://github.com/vic-smith">
-              <img src="./images/git.png" alt="GitHub Logo" />
+              <img src={git} alt="GitHub Logo" />
             </a>
           </li>
           
           <li>
             <a href="https://stackoverflow.com/users/16684179/vsmith">
-              <img src="/images/stackoverflow.png" alt="Stackoverflow Logo" />
+              <img src={stack} alt="Stackoverflow Logo" />
             </a>
           </li><li>
             <a href="https://www.linkedin.com/in/victor-smith-devel0per">
-              <img src="./images/LinkedIn.png" alt="LinkedIn Logo" />
+              <img src={linked} alt="LinkedIn Logo" />
             </a>
           </li>
         </ul>

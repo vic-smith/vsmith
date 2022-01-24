@@ -1,3 +1,5 @@
+import me from "../../images/profile-pic.jpg"
+
 function About() {
   return (
     <section className="container">
@@ -7,7 +9,7 @@ function About() {
       <div className="victor">
         <div className="profile">
           <img
-            src="./images/profile-pic.jpg"
+            src={me}
             className="profile-pic"
             alt="Victor"
           />

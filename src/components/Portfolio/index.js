@@ -1,5 +1,9 @@
-//import Project from "../Project";
-//import projects from "../../projects.json";
+import sched from "../../images/digital-marketing-meeting.jpg"
+import taco from "../../images/taco.jpg"
+import free from "../../images/free.jpg"
+import note from "../../images/notes.jpg"
+import budget from "../../images/budget.jpg"
+import tech from "../../images/tech.jpg"
 
 function Portfolio() {
   return (
@@ -10,7 +14,7 @@ function Portfolio() {
           <a href="https://vic-smith.github.io/daily-planner/">
             <div className="title">Day Scheduler</div>
             <img
-              src="./images/digital-marketing-meeting.jpg"
+              src={sched}
               alt="People at work."
             />
           </a>
@@ -24,7 +28,7 @@ function Portfolio() {
         <div className="card">
           <a href="https://vic-smith.github.io/Taco-Loca-tor/">
             <div className="title">TacoLocator</div>
-            <img src="./images/taco.jpg" alt="Tacos" />
+            <img src={taco} alt="Tacos" />
           </a>
           <div>
             <a href="https://github.com/vic-smith/Taco-Loca-tor.git">
@@ -36,7 +40,7 @@ function Portfolio() {
         <div className="card">
           <a href="https://safe-beyond-95818.herokuapp.com/">
             <div className="title">Give-Away</div>
-            <img src="./images/free.jpg" alt="Free Stuff" />
+            <img src={free} alt="Free Stuff" />
           </a>
           <div>
             <a href="https://github.com/dylan-fair/give-away.git">
@@ -48,7 +52,7 @@ function Portfolio() {
         <div className="card">
           <a href="https://damp-journey-79660.herokuapp.com/">
             <div className="title">Note-Taker</div>
-            <img src="./images/notes.jpg" alt="Note Pad Icon" />
+            <img src={note} alt="Note Pad Icon" />
           </a>
           <div>
             <a href="https://github.com/vic-smith/note-taker.git">
@@ -60,7 +64,7 @@ function Portfolio() {
         <div className="card">
           <a href="https://budget-tracker-vic.herokuapp.com/">
             <div className="title">Budget-Tracker</div>
-            <img src="./images/budget.jpg" alt="Budget Tools" />
+            <img src={budget} alt="Budget Tools" />
           </a>
           <div>
             <a href="https://github.com/vic-smith/budget-tracker.git">
@@ -72,7 +76,7 @@ function Portfolio() {
         <div className="card">
           <a href="https://techshare-vs.herokuapp.com/">
             <div className="title">Tech Blog</div>
-            <img src="./images/tech.jpg" alt="Computer Chip" />
+            <img src={tech} alt="Computer Chip" />
           </a>
           <div>
             <a href="https://github.com/vic-smith/tech-blog.git">Source Code</a>

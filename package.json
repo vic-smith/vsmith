@@ -5,7 +5,7 @@
     "node": "16.13.0"
   },
   "private": false,
-  "homepage": "http://vic-smith.github.io/vsmith",
+  "homepage": "http://vic-smith.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
