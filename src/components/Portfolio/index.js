@@ -4,6 +4,7 @@ import free from "../../images/free.jpg"
 import note from "../../images/notes.jpg"
 import budget from "../../images/budget.jpg"
 import tech from "../../images/tech.jpg"
+import raffler from "../../images/raffler-logo.png"
 
 function Portfolio() {
   return (
@@ -82,7 +83,19 @@ function Portfolio() {
             <a href="https://github.com/vic-smith/tech-blog.git">Source Code</a>
           </div>
         </div>
+      
+
+      <div className="card">
+          <a href="https://the-raffler.herokuapp.com/">
+            <div className="title">The Raffler</div>
+            <img src={raffler} alt="Raffler logo" />
+          </a>
+          <div>
+            <a href="https://github.com/vic-smith/the-raffler">Source Code</a>
+          </div>
+        </div>
       </div>
+
     </section>
   );
 }
