@@ -18,7 +18,7 @@ function Resume() {
           </div>
         </ul>
       </div>
-    <a className="skills" href="https://docs.google.com/document/d/1Nl3HxVLpAR-qhFB9gZOi0GxivIO9mam6lro1ew9TlH0/export?format=pdf">
+    <a className="skills" href="https://docs.google.com/document/d/1bvv4rlH87odjsVpcEN4AxTrohjqHWR32ODdeloQawIM/export?format=pdf">
     <button className="resume">Download Resume</button>
     </a>  
     </section>
